@@ -1,4 +1,14 @@
-# 💫 About Me
+<audio id="audioPlayer" preload="auto" loop>
+  <source src="sounds/World War Outerspace - Audio Hertz.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <h1>💫 About Me</h1>
+  <button id="soundButton" onclick="toggleSound()" style="background:none; border: none; color: white; text-decoration: none; font-size: 20px; cursor: pointer; border-radius: 12px; transition: transform 0.3s ease;">
+    🔊 
+  </button>
+</div>
 👋 Hi, I’m Shashank Bharti<br><br>💻 BSc CSDA student | Web Developer | Aspiring Data Scientist<br>🌱 Currently building projects with Flask, React, and Python<br>⚡ Exploring Data Analysis, Machine Learning, and Generative AI<br>🎨 Background in Graphic Design & creating engaging digital content<br>📌 Love solving real-world problems with code and creativity
 
 
@@ -22,3 +32,32 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shashank-bharti&label=Profile%20views&color=0e75b6&style=flat" alt="shashank bharti" /> </p>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+<style>
+button:hover {
+  transform: scale(1.2);
+}
+</style>
+
+<script>
+let isPlaying = false;
+
+function toggleSound() {
+  var audio = document.getElementById("audioPlayer");
+  var button = document.getElementById("soundButton");
+  
+  if (!isPlaying) {
+    audio.play().then(function() {
+      isPlaying = true;
+      button.innerHTML = "🔊";
+    }).catch(function(error) {
+      console.log("Error playing audio:", error);
+      alert("Could not play audio. Please check if the file exists.");
+    });
+  } else {
+    audio.pause();
+    isPlaying = false;
+    button.innerHTML = "🔇";
+  }
+}
+</script>
