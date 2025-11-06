@@ -12,13 +12,6 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=shashank-bharti&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=shashank-bharti&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-<!-- ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=shashank-bharti&theme=gruvbox&no-frame=false&no-bg=true&margin-w=4)-->
-
-### ✍️ Quote of The Day
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=gruvbox)
-
----
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shashank-bharti&label=Profile%20views&color=0e75b6&style=flat" alt="shashank bharti" /> </p>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
