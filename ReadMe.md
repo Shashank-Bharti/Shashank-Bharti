@@ -1,5 +1,5 @@
-# 💫 About Me
-👋 Hi, I’m Shashank Bharti<br><br>💻 Computer Science | Web Developer | Aspiring Data Scientist<br>🌱 Currently building projects with Flask, React, and Python<br>⚡ Exploring Data Analysis, Machine Learning, and Generative AI<br>🎨 Background in Graphic Design & creating engaging digital content<br>📌 Love solving real-world problems with code and creativity
+# 👋 Hi, I’m Shashank Bharti
+💻 Computer Science | Web Developer | Aspiring Data Scientist<br>🌱 Currently building projects with Flask, React, and Python<br>⚡ Exploring Data Analysis, Machine Learning, and Generative AI<br>🎨 Background in Graphic Design & creating engaging digital content<br>📌 Love solving real-world problems with code and creativity
 
 
 ## 🌐 Socials
